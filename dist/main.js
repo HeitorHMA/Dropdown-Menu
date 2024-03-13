@@ -1,0 +1,1 @@
+document.querySelector("#dropdown-button").addEventListener("click",(function(){const s=document.querySelector("#test");s.classList.contains("undisplayed")?(s.classList.remove("undisplayed"),s.classList.add("dropdown-content")):s.classList.contains("dropdown-content")&&(s.classList.remove("dropdown-content"),s.classList.add("undisplayed"))}));
